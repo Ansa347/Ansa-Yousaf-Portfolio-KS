@@ -1,0 +1,139 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #be3144;
+}
+#navm {
+  font-size: 2rem;
+}
+.box1 {
+  height: 590px;
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+#heading1 {
+  text-align: center;
+  padding-top: 18%;
+  font-size: 3rem;
+}
+#para1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+.box2 {
+  width: 100%;
+  height: 990px;
+  color: white;
+  background-color: #3c4a6c;
+}
+.heading2 {
+  text-align: center;
+  padding-top: 6%;
+}
+.box2 hr {
+  width: 430px;
+  border: 1px solid white;
+  margin-left: 32%;
+}
+#contact {
+  background-color: rgba(0, 0, 0, 0.192);
+  height: 530px;
+}
+.box3 {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
+  justify-content: space-between;
+  padding-left: 27%;
+  padding-right: 25%;
+  margin-top: 3%;
+}
+.heading3 {
+  text-align: center;
+  padding-top: 12%;
+  font-size: 3rem;
+}
+.box3 div {
+  display: flex;
+  flex-direction: row;
+}
+.box3 div:hover {
+  margin-top: 3%;
+  color: white;
+}
+.box3 i {
+  margin-right: 18%;
+  margin-top: 5%;
+}
+.box3 h6 {
+  font-size: 1.25rem;
+}
+.wbox {
+  height: 730px;
+  width: 100%;
+  margin-top: 4%;
+}
+.wbox div img {
+  height: 320px;
+  width: 380px;
+}
+.wbox :hover {
+  color: #be3144;
+}
+.wbox div footer {
+  background-color: rgb(0 0 0 / 88%);
+  color: white;
+  text-align: center;
+  width: 380px;
+}
+.wbox2 {
+  margin-top: 3%;
+}
+@media only screen and (max-width: 991px) {
+  .pic1 {
+    margin-left: -12%;
+  }
+  .pic2 {
+    margin-left: 12%;
+  }
+  .pic3 {
+    margin-left: -12.5%;
+  }
+  .pic4 {
+    margin-left: 12%;
+  }
+  .box3 i {
+    margin-right: 18%;
+    margin-top: 5%;
+  }
+  .box3 div h6 {
+    margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .box2 {
+    width: 100%;
+    height: 1650px;
+    background-color: #3c4a6c;
+  }
+  .pic1 {
+    margin-left: 11%;
+  }
+  .pic2 {
+    margin-left: 11%;
+    margin-top: 8%;
+  }
+  .pic3 {
+    margin-left: 11.5%;
+    margin-top: 6%;
+  }
+  .pic4 {
+    margin-top: 8%;
+  }
+}
+@media only screen and (max-width: 575px) {
+}
